@@ -1,0 +1,80 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none; /* Let clicks pass through to Spline if interactive */
+  display: flex;
+  align-items: center;
+  padding: 0 5vw;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.textContent {
+  max-width: 800px;
+}
+
+.subtitle {
+  font-family: var(--font-outfit);
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.title {
+  font-size: clamp(6rem, 15vw, 15rem);
+  line-height: 0.85;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  mix-blend-mode: multiply;
+}
+
+.accentBlock {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 2rem;
+  width: fit-content;
+  pointer-events: auto;
+}
+
+.accentText {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.accentText span {
+  font-family: var(--font-outfit);
+  font-size: 3rem;
+  font-weight: 800;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.accentText p {
+  font-family: var(--font-inter);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
