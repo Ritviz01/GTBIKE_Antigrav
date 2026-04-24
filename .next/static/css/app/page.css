@@ -1,0 +1,547 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Footer.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__UaG1g {
+  background-color: var(--text-primary);
+  color: var(--bg-secondary);
+  padding: 6rem 0 2rem;
+}
+
+.Footer_content__Fi1S7 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 1024px) {
+  .Footer_content__Fi1S7 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.Footer_brand___zP6t {
+  max-width: 300px;
+}
+
+.Footer_logo__NsUJK {
+  font-family: var(--font-outfit);
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  margin-bottom: 1rem;
+}
+
+.Footer_tagline__EtMBR {
+  color: #a0a0a0;
+  font-family: var(--font-inter);
+}
+
+.Footer_links__oDyjI {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.Footer_column__BQljC {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Footer_column__BQljC h4 {
+  font-family: var(--font-outfit);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.Footer_column__BQljC a {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.Footer_column__BQljC a:hover {
+  color: var(--accent-color);
+}
+
+.Footer_bottom__O5rKs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 1px solid #333;
+  padding-top: 2rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .Footer_bottom__O5rKs {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.Footer_legal__gVqLl {
+  display: flex;
+  gap: 2rem;
+}
+
+.Footer_legal__gVqLl a:hover {
+  color: white;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Hero.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero__T3Fr4 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+}
+
+
+.Hero_overlay__4XjG7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none; /* Let clicks pass through to Spline if interactive */
+  display: flex;
+  align-items: center;
+  padding: 0 5vw;
+}
+
+.Hero_content__9ypWn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Hero_textContent__wDYTu {
+  max-width: 800px;
+}
+
+.Hero_subtitle__lkRtQ {
+  font-family: var(--font-outfit);
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.Hero_title__Bn2TU {
+  font-size: clamp(6rem, 15vw, 15rem);
+  line-height: 0.85;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  mix-blend-mode: multiply;
+}
+
+.Hero_accentBlock__6TYw3 {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  pointer-events: auto;
+}
+
+.Hero_accentText__9FN0s {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.Hero_accentText__9FN0s span {
+  font-family: var(--font-outfit);
+  font-size: 3rem;
+  font-weight: 800;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.Hero_accentText__9FN0s p {
+  font-family: var(--font-inter);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/ModernLineup.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.ModernLineup_section__nquP2 {
+  background-color: var(--bg-secondary);
+  padding: 10rem 0;
+  position: relative;
+}
+
+.ModernLineup_header__r45Cu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+  .ModernLineup_header__r45Cu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .ModernLineup_header__r45Cu p {
+    max-width: 400px;
+  }
+}
+
+.ModernLineup_showcase__IZNOc {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 4rem;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .ModernLineup_showcase__IZNOc {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 8rem;
+  }
+}
+
+.ModernLineup_imageWrapper__mAoRb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ModernLineup_image__iT9hG {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.ModernLineup_imageWrapper__mAoRb:hover .ModernLineup_image__iT9hG {
+  transform: scale(1.05);
+}
+
+.ModernLineup_details__0oocY {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ModernLineup_stat__tHgUX {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1rem;
+}
+
+.ModernLineup_statLabel__eBLSK {
+  font-family: var(--font-outfit);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.ModernLineup_statValue__xXfOs {
+  font-family: var(--font-outfit);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Navbar.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_navbar__fk_p7 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  z-index: 100;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.Navbar_navContainer__tpkRW {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Navbar_logo__UM0Ax {
+  font-family: var(--font-outfit);
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.Navbar_links__lFeE5 {
+  display: none;
+  gap: 3rem;
+  font-family: var(--font-outfit);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@media (min-width: 768px) {
+  .Navbar_links__lFeE5 {
+    display: flex;
+  }
+}
+
+.Navbar_link__9Nm3x {
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+.Navbar_link__9Nm3x:hover {
+  opacity: 0.7;
+}
+
+.Navbar_actions__1ikpw {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.Navbar_iconBtn__Q6If2, .Navbar_menuBtn__J7WFq {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .Navbar_menuBtn__J7WFq {
+    display: none;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/VintageHistory.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.VintageHistory_section__JEWcl {
+  background-color: var(--bg-primary);
+  padding: 10rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.VintageHistory_grid__37jUO {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6rem;
+  gap: 6rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .VintageHistory_grid__37jUO {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.VintageHistory_imageContainer__OfwyU {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background-color: #e5e5e5; /* Placeholder background */
+}
+
+.VintageHistory_image__rJyhX {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+  filter: grayscale(100%) contrast(1.2);
+  transition: filter 0.5s ease;
+}
+
+.VintageHistory_imageContainer__OfwyU:hover .VintageHistory_image__rJyhX {
+  filter: grayscale(0%) contrast(1);
+}
+
+.VintageHistory_accentSquare___m1p7 {
+  position: absolute;
+  bottom: -2rem;
+  left: -2rem;
+  width: 50%;
+  height: 50%;
+  background-color: var(--accent-color);
+  z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  .VintageHistory_accentSquare___m1p7 {
+    bottom: -4rem;
+    left: -4rem;
+  }
+}
+
+.VintageHistory_content__E_qwL {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.VintageHistory_year__voo_r {
+  font-family: var(--font-outfit);
+  font-size: 5rem;
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--text-primary);
+  opacity: 0.2;
+  margin-bottom: -3rem;
+  z-index: 0;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Store.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Store_section__5EIjA {
+  background-color: var(--bg-secondary);
+  padding: 10rem 0;
+}
+
+.Store_header__Ajgdv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 4rem;
+}
+
+.Store_grid__NqzEa {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .Store_grid__NqzEa {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.Store_card__Ib5PZ {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.Store_imageContainer__YMo1v {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-color: var(--bg-primary);
+  overflow: hidden;
+}
+
+.Store_image__nq_Ik {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.Store_overlay__qWXXc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 77, 48, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.Store_card__Ib5PZ:hover .Store_image__nq_Ik {
+  transform: scale(1.05);
+}
+
+.Store_card__Ib5PZ:hover .Store_overlay__qWXXc {
+  opacity: 1;
+}
+
+.Store_shopBtn___gFuk {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  font-family: var(--font-outfit);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Store_shopBtn___gFuk:hover {
+  background: white;
+  color: var(--accent-color);
+}
+
+.Store_details__ljntR {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Store_category__g7N_8 {
+  font-family: var(--font-outfit);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.1em;
+}
+
+.Store_name__LZuXm {
+  font-family: var(--font-outfit);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.Store_price___vO8x {
+  font-family: var(--font-inter);
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
