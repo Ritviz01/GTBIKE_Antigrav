@@ -1,10 +1,14 @@
 "use client";
 
+import Spline from '@splinetool/react-spline/next';
 import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
+      <div className={styles.splineContainer}>
+        <Spline scene="https://prod.spline.design/VQn3c6YNIQlWFqv8/scene.splinecode" />
+      </div>
 
       <div className={styles.overlay}>
         <div className={styles.content}>
