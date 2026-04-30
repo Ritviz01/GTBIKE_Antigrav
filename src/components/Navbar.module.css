@@ -33,7 +33,7 @@
   font-family: var(--font-outfit);
   font-weight: 600;
   font-size: 0.9rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.1em;
 }
 
