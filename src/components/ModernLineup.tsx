@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import styles from "./ModernLineup.module.css";
 
@@ -27,11 +28,13 @@ export default function ModernLineup() {
             className={styles.imageWrapper}
             style={{ y: y1, opacity: opacity1 }}
           >
-            {/* Using standard img since next/image might require config for local files in some setups, but we are building manually so simple img is safer to ensure it renders */}
-            <img 
+            <Image 
               src="/modern_motorcycle.png" 
               alt="Modern GT Cafe Racer" 
               className={styles.image}
+              width={1000}
+              height={700}
+              style={{ objectFit: 'cover' }}
             />
           </motion.div>
           

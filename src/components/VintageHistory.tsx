@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./VintageHistory.module.css";
 
 export default function VintageHistory() {
@@ -6,10 +7,13 @@ export default function VintageHistory() {
       <div className="container">
         <div className={styles.grid}>
           <div className={styles.imageContainer}>
-             <img 
+             <Image 
               src="/vintage_motorcycle.png" 
               alt="Vintage Motorcycle" 
               className={styles.image}
+              width={800}
+              height={600}
+              style={{ objectFit: 'cover' }}
             />
             <div className={styles.accentSquare}></div>
           </div>
