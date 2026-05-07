@@ -1,7 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Spline from '@splinetool/react-spline/next';
+import dynamic from 'next/dynamic';
+
+const Spline = dynamic(() => import('./SplineScene'), {
+  ssr: false,
+});
 import styles from "./Hero.module.css";
 
 export default function Hero() {

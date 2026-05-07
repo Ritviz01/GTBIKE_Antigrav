@@ -102,7 +102,7 @@
 .Hero_hero__T3Fr4 {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   background-color: var(--bg-primary);
 }
@@ -124,7 +124,8 @@
   width: 100%;
   height: 100%;
   z-index: 10;
-  pointer-events: none; /* Let clicks pass through to Spline if interactive */
+  pointer-events: none;
+  /* Let clicks pass through to Spline if interactive */
   display: flex;
   align-items: center;
   padding: 0 5vw;
@@ -150,7 +151,7 @@
 }
 
 .Hero_title__Bn2TU {
-  font-size: clamp(6rem, 15vw, 15rem);
+  font-size: clamp(3rem, 8vw, 8rem);
   line-height: 0.85;
   font-weight: 800;
   color: var(--text-primary);
@@ -159,7 +160,8 @@
 }
 
 .Hero_accentBlock__6TYw3 {
-  background: rgba(255, 77, 48, 0.15); /* Transparent accent */
+  background: rgba(255, 77, 41, 0.15);
+  /* Transparent accent */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-left: 4px solid var(--accent-color);
@@ -193,6 +195,45 @@
   font-weight: 500;
 }
 
+.Hero_loader__w2hlb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  background-color: var(--bg-primary);
+  font-family: var(--font-outfit);
+  color: var(--accent-color);
+  letter-spacing: 0.2em;
+  font-size: 1rem;
+  animation: Hero_pulse__2CMVt 2s infinite ease-in-out;
+}
+
+@keyframes Hero_pulse__2CMVt {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+@media (max-width: 768px) {
+  .Hero_accentBlock__6TYw3 {
+    padding: 1rem;
+  }
+  .Hero_accentText__9FN0s span {
+    font-size: 2rem;
+  }
+  .Hero_accentText__9FN0s p {
+    font-size: 0.75rem;
+    max-width: 150px;
+  }
+  .Hero_title__Bn2TU {
+    margin-bottom: 1rem;
+  }
+}
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/ModernLineup.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************/
@@ -307,7 +348,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1401px;
   margin: 0 auto;
 }
 
@@ -324,7 +365,7 @@
   font-family: var(--font-outfit);
   font-weight: 600;
   font-size: 0.9rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.1em;
 }
 
@@ -349,7 +390,8 @@
   align-items: center;
 }
 
-.Navbar_iconBtn__Q6If2, .Navbar_menuBtn__J7WFq {
+.Navbar_iconBtn__Q6If2,
+.Navbar_menuBtn__J7WFq {
   background: none;
   border: none;
   color: inherit;
@@ -361,7 +403,6 @@
     display: none;
   }
 }
-
 /*!************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/VintageHistory.module.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************************/

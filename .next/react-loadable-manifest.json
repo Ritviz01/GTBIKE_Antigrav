@@ -46,5 +46,11 @@
     "files": [
       "static/chunks/_app-pages-browser_node_modules_splinetool_runtime_build_ui_js.js"
     ]
+  },
+  "components\\Hero.tsx -> ./SplineScene": {
+    "id": "components\\Hero.tsx -> ./SplineScene",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_SplineScene_tsx.js"
+    ]
   }
 }
