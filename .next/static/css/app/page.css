@@ -129,6 +129,7 @@
   display: flex;
   align-items: center;
   padding: 0 5vw;
+  background: linear-gradient(90deg, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.7) 40%, transparent 100%);
 }
 
 .Hero_content__9ypWn {
