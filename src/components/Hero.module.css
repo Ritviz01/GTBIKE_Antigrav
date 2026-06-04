@@ -51,12 +51,12 @@
 }
 
 .title {
-  font-size: clamp(3rem, 8vw, 8rem);
-  line-height: 0.85;
-  font-weight: 800;
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  line-height: 1.2;
+  font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 2rem;
-  text-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
 }
 
 .accentBlock {

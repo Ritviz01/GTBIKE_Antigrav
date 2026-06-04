@@ -31,8 +31,11 @@ export default function Hero() {
           <div className={styles.textContent}>
             <p className={styles.subtitle}>EST. 1960 — CAFE RACER HERITAGE</p>
             <h1 className={styles.title}>
-              GT.<br />
-              MOTORS.
+              EXPLORE THE<br />
+              DEPTH,<br />
+              CHARISMO<br />
+              LOVE IT ! HATE IT !<br />
+              ALWAYS THE SAME
             </h1>
             <div className={styles.accentBlock}>
               <div className={styles.accentText}>
