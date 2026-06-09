@@ -404,85 +404,6 @@
     display: none;
   }
 }
-/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/VintageHistory.module.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************/
-.VintageHistory_section__JEWcl {
-  background-color: var(--bg-primary);
-  padding: 10rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.VintageHistory_grid__37jUO {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 6rem;
-  gap: 6rem;
-  align-items: center;
-}
-
-@media (min-width: 1024px) {
-  .VintageHistory_grid__37jUO {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.VintageHistory_imageContainer__OfwyU {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  background-color: #e5e5e5; /* Placeholder background */
-}
-
-.VintageHistory_image__rJyhX {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  z-index: 2;
-  filter: grayscale(100%) contrast(1.2);
-  transition: filter 0.5s ease;
-}
-
-.VintageHistory_imageContainer__OfwyU:hover .VintageHistory_image__rJyhX {
-  filter: grayscale(0%) contrast(1);
-}
-
-.VintageHistory_accentSquare___m1p7 {
-  position: absolute;
-  bottom: -2rem;
-  left: -2rem;
-  width: 50%;
-  height: 50%;
-  background-color: var(--accent-color);
-  z-index: 1;
-}
-
-@media (min-width: 1024px) {
-  .VintageHistory_accentSquare___m1p7 {
-    bottom: -4rem;
-    left: -4rem;
-  }
-}
-
-.VintageHistory_content__E_qwL {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.VintageHistory_year__voo_r {
-  font-family: var(--font-outfit);
-  font-size: 5rem;
-  font-weight: 800;
-  color: transparent;
-  -webkit-text-stroke: 2px var(--text-primary);
-  opacity: 0.2;
-  margin-bottom: -3rem;
-  z-index: 0;
-}
-
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Store.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
@@ -600,5 +521,151 @@
   font-family: var(--font-inter);
   font-weight: 500;
   color: var(--text-secondary);
+}
+
+.Store_formContainer__LoQaW {
+  background-color: var(--bg-secondary);
+  border: 1px solid #222;
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+  border-radius: 4px;
+}
+
+.Store_formTitle__gTlrq {
+  font-family: var(--font-outfit);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.Store_formGrid__BvUQr {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .Store_formGrid__BvUQr {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.Store_formGroup__t4rJp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Store_label__fX30y {
+  font-family: var(--font-outfit);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}
+
+.Store_input__Yuxxk, .Store_select__IrSZL {
+  background-color: var(--bg-primary);
+  border: 1px solid #333;
+  color: var(--text-primary);
+  padding: 1rem;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.Store_input__Yuxxk:focus, .Store_select__IrSZL:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.Store_formMessage__TXd5D {
+  margin-top: 1rem;
+  font-family: var(--font-inter);
+  font-size: 0.95rem;
+  color: var(--accent-color);
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/VintageHistory.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.VintageHistory_section__JEWcl {
+  background-color: var(--bg-primary);
+  padding: 10rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.VintageHistory_grid__37jUO {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6rem;
+  gap: 6rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .VintageHistory_grid__37jUO {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.VintageHistory_imageContainer__OfwyU {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background-color: #e5e5e5; /* Placeholder background */
+}
+
+.VintageHistory_image__rJyhX {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+  filter: grayscale(100%) contrast(1.2);
+  transition: filter 0.5s ease;
+}
+
+.VintageHistory_imageContainer__OfwyU:hover .VintageHistory_image__rJyhX {
+  filter: grayscale(0%) contrast(1);
+}
+
+.VintageHistory_accentSquare___m1p7 {
+  position: absolute;
+  bottom: -2rem;
+  left: -2rem;
+  width: 50%;
+  height: 50%;
+  background-color: var(--accent-color);
+  z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  .VintageHistory_accentSquare___m1p7 {
+    bottom: -4rem;
+    left: -4rem;
+  }
+}
+
+.VintageHistory_content__E_qwL {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.VintageHistory_year__voo_r {
+  font-family: var(--font-outfit);
+  font-size: 5rem;
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--text-primary);
+  opacity: 0.2;
+  margin-bottom: -3rem;
+  z-index: 0;
 }
 
